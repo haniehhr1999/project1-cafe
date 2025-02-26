@@ -7,7 +7,7 @@ const ServiceItem = ({ title, description, image, icon }) => {
   // }
   return (
     <div className="flex">
-      <Image src={image} width={200} height={200} />
+      <Image src={image} width={200} height={200} alt={title} />
       <div>
         <div className="flex items-center">
           {/* {setIcon()} */}
