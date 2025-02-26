@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Slider from "@/components/templates/index/Slider";
 import About from "@/components/templates/index/About";
 import Services from "@/components/templates/index/Services";
+import Offer from "@/components/templates/index/Offer";
 
 
 
@@ -15,6 +16,7 @@ export default function Home({services}) {
       <Slider/>
       <About />
       <Services data= {services} />
+      <Offer />
     </div>
   );
 }

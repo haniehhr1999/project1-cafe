@@ -1,61 +1,66 @@
 {
-    "menu" : [
-        {
-            "id" : 1 ,
-            "title" : "title 1" ,
-            "price": 120000 ,
-            "img" : "/public/menu-1.jpg" ,
-            "off" : 0,
-            "desc" : "hsdkjfsljf hjxnvmjdfhsgojdfdlkg fhfghfhgg vbcfbcb grtgd gfhgskejfjeh foisjvm nsjsfngq idhiuw eyruweg hjfdnvgi7y4 6598ijfdgsjdfhkjsdhfkjxnbcknxbvnkxbxdhsdoujfh"
-        } ,
-        {
-            "id" : 2 ,
-            "title" : "title 1" ,
-            "price": 120000 ,
-            "img" : "/public/menu-1.jpg" ,
-            "off" : 0,
-            "desc" : "hsdkjfsljf hjxnvmjdfhsgojdfdlkg fhfghfhgg vbcfbcb grtgd gfhgskejfjeh foisjvm nsjsfngq idhiuw eyruweg hjfdnvgi7y4 6598ijfdgsjdfhkjsdhfkjxnbcknxbvnkxbxdhsdoujfh"
-        }
-    ] , 
-    "services": [
+  "menu": [
     {
-      "id": 1,
+      "id": "1",
+      "title": "title 1",
+      "price": 120000,
+      "img": "/public/menu-1.jpg",
+      "off": 0,
+      "desc": "hsdkjfsljf hjxnvmjdfhsgojdfdlkg fhfghfhgg vbcfbcb grtgd gfhgskejfjeh foisjvm nsjsfngq idhiuw eyruweg hjfdnvgi7y4 6598ijfdgsjdfhkjsdhfkjxnbcknxbvnkxbxdhsdoujfh"
+    },
+    {
+      "id": "2",
+      "title": "title 1",
+      "price": 120000,
+      "img": "/public/menu-1.jpg",
+      "off": 0,
+      "desc": "hsdkjfsljf hjxnvmjdfhsgojdfdlkg fhfghfhgg vbcfbcb grtgd gfhgskejfjeh foisjvm nsjsfngq idhiuw eyruweg hjfdnvgi7y4 6598ijfdgsjdfhkjsdhfkjxnbcknxbvnkxbxdhsdoujfh"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
       "title": "Fastest Door Delivery",
       "img": "/public/service-1.jpg",
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
       "icon": "faTruck"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Fastest Door Delivery",
       "img": "/public/service-2.jpg",
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
       "icon": "faCoffee"
     }
   ],
-
   "newsLetters": [
     {
-      "id": 1,
+      "id": "1",
       "email": "amin@gmail.com"
     },
     {
-      "id": 2,
+      "id": "2",
       "email": "qadir@gmail.com"
+    },
+    {
+      "id": "ed7c",
+      "email": "asd@gmail.com"
+    },
+    {
+      "id": "3c98",
+      "email": "hfgjghdd@gmail.com"
     }
   ],
-
   "comment": [
     {
-      "id": 1,
+      "id": "1",
       "username": "Q_Yolme",
       "body": "Perfect Coffee :))",
       "productID": 1,
       "score": 5
     },
-
     {
-      "id": 2,
+      "id": "2",
       "username": "Amin_Saeedi",
       "body": "Perfect Coffee :))",
       "productID": 2,
