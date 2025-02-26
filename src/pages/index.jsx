@@ -6,14 +6,28 @@ import Services from "@/components/templates/index/Services";
 
 
 
-export default function Home() {
+export default function Home({services}) {
+  console.log(services)
   return (
     <div
       className=''
     >
       <Slider/>
       <About />
-      <Services />
+      <Services data= {services} />
     </div>
   );
+}
+
+
+export async function getStaticProps (){
+  const res = await fetch ('http://localhost:9000/services')
+  const services = await res.json()
+
+  return{
+    props :{
+      services
+    },
+    revalidate : 60*60*12  //second
+  }
 }
