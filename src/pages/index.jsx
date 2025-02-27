@@ -5,6 +5,7 @@ import About from "@/components/templates/index/About";
 import Services from "@/components/templates/index/Services";
 import Offer from "@/components/templates/index/Offer";
 import Menu from "@/components/templates/index/Menu";
+import Reservation from "@/components/templates/index/Reservation";
 
 
 
@@ -18,8 +19,8 @@ export default function Home({services , menu}) {
       <About />
       <Services data= {services} />
       <Offer />
-
       <Menu data ={menu} />
+      <Reservation />
     </div>
   );
 }
