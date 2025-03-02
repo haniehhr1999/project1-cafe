@@ -1,9 +1,15 @@
-import React from 'react'
+import ServiceItem from "@/components/modules/serviceItem/ServiceItem";
+import React from "react";
 
-const servicesDetail = () => {
+const ServicesDetail = ({services}) => {
+  console.log(services)
   return (
-    <div>servicesDetail</div>
-  )
-}
+    <div >
+      {
+        services.map(service => <ServiceItem service = {service}/> )
+      }
+    </div>
+  );
+};
 
-export default servicesDetail
+export default ServicesDetail;
